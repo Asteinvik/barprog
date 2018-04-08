@@ -1,0 +1,40 @@
+@import "variables";
+@import "EntryList";
+@import "compass/css3";
+html {
+
+  background-color: black;
+  font-size: 1.25em;
+  overflow:hidden;
+
+}
+
+
+body {
+  background-color: orange;
+}
+
+th{
+  text-align: left;
+}
+
+td{
+
+  padding-right: 3em;
+
+}
+
+.stats{
+  padding-left:5%;
+  position: absolute;
+  left:0;
+  width: 45%;
+  height:100%;
+  background-color: orange;
+}
+
+.muggy{
+  right:10%;
+  position: absolute;
+  color:white;
+}
